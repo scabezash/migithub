@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+
+<cartelera>
+
+	<sala>
+		<numero>1</numero>
+
+		<pelicula film="Joker">
+			<horainicio>14:30</horainicio>
+			<horafinal>16:30</horafinal>
+		</pelicula>
+
+		<pelicula film="Protecto Geminis">
+			<horainicio>16:40</horainicio>
+			<horafinal>18:40</horafinal>
+		</pelicula>
+
+		<pelicula film="Blaze">
+			<horainicio>18:50</horainicio>
+			<horafinal>20:50</horafinal>
+		</pelicula>
+
+		<pelicula film="Ad Astra">
+			<horainicio>21:00</horainicio>
+			<horafinal>23:00</horafinal>
+		</pelicula>
+
+		<pelicula film="Rambo">
+			<horainicio>23:10</horainicio>
+			<horafinal>01:10</horafinal>
+		</pelicula>
+		
+
+	</sala>
+	
+	<sala>
+		<numero>2</numero>
+
+		<pelicula film="Blaze">
+			<horainicio>14:30</horainicio>
+			<horafinal>16:30</horafinal>
+		</pelicula>
+
+		<pelicula film="Ad Astra">
+			<horainicio>16:40</horainicio>
+			<horafinal>18:40</horafinal>
+		</pelicula>
+
+		<pelicula film="Protecto Geminis">
+			<horainicio>18:50</horainicio>
+			<horafinal>20:50</horafinal>
+		</pelicula>
+
+		<pelicula film="Rambo">
+			<horainicio>21:00</horainicio>
+			<horafinal>23:00</horafinal>
+		</pelicula>
+
+		<pelicula film="Joker">
+			<horainicio>23:10</horainicio>
+			<horafinal>01:10</horafinal>
+		</pelicula>
+		
+
+	</sala>
+	
+	<sala>
+		<numero>3</numero>
+
+		<pelicula film="Blaze">
+			<horainicio>14:30</horainicio>
+			<horafinal>16:30</horafinal>
+		</pelicula>
+
+		<pelicula film="Joker">
+			<horainicio>16:40</horainicio>
+			<horafinal>18:40</horafinal>
+		</pelicula>
+
+		<pelicula film="Rambo">
+			<horainicio>18:50</horainicio>
+			<horafinal>20:50</horafinal>
+		</pelicula>
+
+		<pelicula film="Protecto Geminis">
+			<horainicio>21:00</horainicio>
+			<horafinal>23:00</horafinal>
+		</pelicula>
+
+		<pelicula film="Ad Astra">
+			<horainicio>23:10</horainicio>
+			<horafinal>01:10</horafinal>
+		</pelicula>
+		
+
+	</sala>
+	
+	<sala>
+		<numero>4</numero>
+
+		<pelicula film="Protecto Geminis">
+			<horainicio>14:30</horainicio>
+			<horafinal>16:30</horafinal>
+		</pelicula>
+
+		<pelicula film="Ad Astra">
+			<horainicio>16:40</horainicio>
+			<horafinal>18:40</horafinal>
+		</pelicula>
+
+		<pelicula film="Joker">
+			<horainicio>18:50</horainicio>
+			<horafinal>20:50</horafinal>
+		</pelicula>
+
+		<pelicula film="Blaze">
+			<horainicio>21:00</horainicio>
+			<horafinal>23:00</horafinal>
+		</pelicula>
+
+		<pelicula film="Rambo">
+			<horainicio>23:10</horainicio>
+			<horafinal>01:10</horafinal>
+		</pelicula>
+		
+
+	</sala>
+	
+</cartelera>

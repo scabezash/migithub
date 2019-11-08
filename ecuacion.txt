@@ -1,0 +1,78 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+	double a,b,c;
+	double raiz;
+	double solucion1, solucion2, solucion;
+	cout << "Introduce los tres valores de a, b y c para solucionar la siguiente ecuación de segundo grado ax² + bx + c = 0" << endl;
+	cout << "Introduce el valor de a: ";
+	cin >> a;
+	cout << "Introduce el valor de b: ";
+	cin >> b;
+	cout << "Introduce el valor de c: ";
+	cin >> c;
+	
+	if (!(cin.fail())){
+		if (!(a==0 || b==0 || c==0)){
+			raiz = (b*b)-(4*a*c);
+			if ((raiz >= 0)) {
+				solucion1 = (-b +sqrt(raiz))/(2*a);
+				solucion2 = (-b -sqrt(raiz))/(2*a);
+				cout << "x es igual a " << solucion1 << " y a " << solucion2 <<  endl;
+			}
+			else {
+				cout << "No se puede calcular la raíz de un número negativo" << endl;
+			}
+		} 
+		else{
+
+			if((a==0) && (b==0) && (c==0)){			
+				cout << "La solución es 0" << endl;
+			}
+			
+			if((a==0) && (b==0) && (c!=0)){
+				cout << "No tiene solución" << endl;
+			}
+			
+			if(a==0 && b!=0 && c==0){
+				cout << "La solución es 0" << endl;
+			}
+
+			if((a==0) && (b!=0) && (c!=0)){
+				solucion= ((-c)/b);
+				cout << "x es igual a " << solucion << endl;
+			} 
+			
+			if ((a!=0) && (b==0) && (c==0)){
+				cout << "La solución es 0" << endl;
+			}
+			
+			if((a!=0) && (b==0) && (c!=0)){
+				raiz = ((-c)/a);
+				if ((raiz >= 0)) {
+					solucion= sqrt(raiz);
+					cout << "x es igual a " << solucion << endl;
+				}
+				else {
+					cout << "No se puede calcular la raíz de un número negativo" << endl;
+				}
+			}
+
+			if((a!=0) && (b!=0) && (c==0)){
+				solucion= ((-b)/a);
+				cout << "x es igula a " << solucion << endl;
+			}	
+
+		}
+
+	}
+
+	else{
+		cout <<"Has introducido algún carácter diferente de un número o un punto, no me rompas que me encuentras"<< endl;
+	}
+
+
+}
+

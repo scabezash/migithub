@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE mondial
+[
+<!ELEMENT mondial (country)*>
+<!ELEMENT country (name, population, population_growth, infant_mortality, gdp_total, gdp_agri, inflation, indep_date, government, encompassed, ethnicgroups+, religions+, border+, city+)>
+	<!ATTLIST country car_code area capital CDATA #REQUIRED>
+	<!ATTLIST country memberships IDREFS #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT population_growth (#PCDATA)>
+<!ELEMENT infant_mortality (#PCDATA)>
+<!ELEMENT gdp_total (#PCDATA)>
+<!ELEMENT gdp_agri (#PCDATA)>
+<!ELEMENT inflation (#PCDATA)>
+<!ELEMENT indep_date (#PCDATA)>
+<!ELEMENT government (#PCDATA)>
+<!ELEMENT encompassed EMPTY>
+	<!ATTLIST encompassed continent percentage CDATA #REQUIRED>
+<!ELEMENT ethnicgroups (#PCDATA)>
+	<!ATTLIST ethnicgroups percentage CDATA #REQUIRED>
+<!ELEMENT religions (#PCDATA)>
+	<!ATTLIST religions percentage CDATA #REQUIRED>
+<!ELEMENT border EMPTY>
+	<!ATTLIST border country length CDATA #REQUIRED>
+<!ELEMENT city (name, longitude, latitude, population, located_at?)>
+	<!ATTLIST city id country CDATA #REQUIRED>
+	<!ATTLIST is_country_cap CDATA (YES|NO) "NO" #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+	<!ATTLIST population year CDATA #REQUIRED>
+<!ELEMENT located_at EMPTY>
+	<!ATTLIST located_at watertype sea CDATA #REQUIRED>
+
+
+
+
+
+]>

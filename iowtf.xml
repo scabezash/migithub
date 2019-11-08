@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE forma_geometrica
+[
+<!ELEMENT forma_geometrica (nombre, caracteristicas, numero_de_lados)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT caracteristicas (color, tipo)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT numero_de_lados (#PCDATA)>
+
+]>
+
+
+<?xml version="1.0"?>
+
+
+<!DOCTYPE lugares
+[
+<!ELEMENT lugares ANY>
+<!ELEMENT lugar (#PCDATA)>
+
+]>
+
+
+<!DOCTYPE ciudades
+[
+<!ELEMENT ciudades (ciudad)*>
+<!ELEMENT ciudad (nombre, capital?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT capital EMPTY>
+
+
+]>
+
+<!DOCTYPE socios
+[
+<!ELEMENT socios (socio)*>
+<!ELEMENT socio ((numero|clave)?, nombre, edad?)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT clave (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+
+]>
+
+<!DOCTYPE elementos
+[
+<!ELEMENT elementos (pcdata*,any,vacio)>
+<!ELEMENT pcdata (#PCDATA)>
+<!ELEMENT any ANY>
+<!ELEMENT vacio EMPTY>
+
+
+]>
+
+<empresas>
+	<empresa nombre="xxx" fecha_de_fundacion="1900"></empresa>
+	<empresa nombre="xxa"></empresa>
+	<empresa nombre="kjf" fecha_de_fundacion="1901"></empresa>
+
+</empresas>
+
+<articulos>
+	<articulo color="xxx">uhdhuas</articulo>
+	<articulo >ughdgghfuas</articulo>
+	<articulo color="xxx">dssc</articulo>
+	
+</articulos>
+
+
+

@@ -1,0 +1,11 @@
+Pregunta 1: Falso, los programas se almacenan en la memoria masiva
+
+Pregunta 2: Verdadero, los datos se ordenan a medida que son introducio
+Pregunta 3: Falso, la cadena de caracteres va ampliando la memoria que necesita a medida que se le asigne mas caracteres, sin embargo un numero real tiene un espacio determidado, que si se excede dará error
+Pregunta 4: Falso, cada lenguaje tiene su propio estandar
+Pregunta 5: Falso, el programa lee linea por linea y si no es interrumpida por ningun error lexico como por ejemplo tener dos tokens separados
+Pregunta 6:
+Pregunta 7:
+Pregunta 8:
+Pregunta 9:
+Pregunta 10: Falso: las variables siempre se tienen que declarar antes porque el programa lee linea por linea y no entenderá que variable

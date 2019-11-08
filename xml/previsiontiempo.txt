@@ -1,0 +1,61 @@
+<?xml version ="1.0"?>
+
+<tiempo>
+
+	<hora>
+		<valor> 12:00 </valor>
+		<probabilidadprecipitaciones> 0% <probabilidadprecipitaciones>
+		<humedad> 35% </humedad>
+		<viento> 5km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 13:00 </valor>
+		<probabilidadprecipitaciones> 3% <probabilidadprecipitaciones>
+		<humedad> 25% </humedad>
+		<viento> 8km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 14:00 </valor>
+		<probabilidadprecipitaciones> 2% <probabilidadprecipitaciones>
+		<humedad> 24% </humedad>
+		<viento> 10km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 15:00 </valor>
+		<probabilidadprecipitaciones> 0% <probabilidadprecipitaciones>
+		<humedad> 37% </humedad>
+		<viento> 5km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 16:00 </valor>
+		<probabilidadprecipitaciones> 1% <probabilidadprecipitaciones>
+		<humedad> 50% </humedad>
+		<viento> 5km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 17:00 </valor>
+		<probabilidadprecipitaciones> 1% <probabilidadprecipitaciones>
+		<humedad> 58% </humedad>
+		<viento> 3km/h </viento>
+	</hora>
+
+	<hora>
+		<valor> 18:00 </valor>
+		<probabilidadprecipitaciones> 1% <probabilidadprecipitaciones>
+		<humedad> 63% </humedad>
+		<viento> 3km/h </viento>
+	</hora>
+	
+	<hora>
+		<valor> 19:00 </valor>
+		<probabilidadprecipitaciones> 1% <probabilidadprecipitaciones>
+		<humedad> 70% </humedad>
+		<viento> 3km/h </viento>
+	</hora>
+
+</tiempo>

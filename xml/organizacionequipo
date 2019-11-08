@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+
+
+
+<liga>
+
+
+	<equipo name="">
+		
+			<estadio></estadio>
+			<localizacion></localizacion>
+			<capacidad></capacidad>
+			
+
+		<plantilla>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+
+			<jugador j="">
+				<linea></linea>
+				<numero></numero>	
+			</jugador>
+			
+
+
+		</plantilla>
+
+
+		<cuerpotecnico>
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+
+				<nombre n="">
+					<profesion></profesion>
+				</nombre>
+		</cuerpotecnico>
+
+	
+
+
+
+
+	</equipo>
+
+
+
+</liga>

@@ -1,0 +1,16 @@
+Pregunta 1: Falso, los programas se almacenan en la memoria masiva, solo se almacenan en la ram cuando estan en ejecución.
+Pregunta 2: Falso, va a variar dependiendo de lo que va a almacenar, un double puede almacenar la celda 193 y 194 con lo cual el siguiente dato se almacenará en la celda 195.
+Pregunta 3: Falso, la cadena de caracteres va ampliando la memoria que necesita a medida que se le asigne más caracteres, sin embargo un número real tiene un espacio determinado, que si se excede dará error, cada caracter ocupa 8 bits, mas el bit de control, una cadena de caracteres ocupará mas.
+Pregunta 4: Falso, el compilador traduce a lenguaje maquina.
+Pregunta 5: Falso, el programa lee linea por linea, si no hay nada entre el int y el main no habrá ningún problema.
+Pregunta 6: Falso, el programa puede funcionar perfectamente sin utilizar el using solo que tendremos que escribir más código.
+Pregunta 7: Falso, el proceso se llama preprocesamiento, no enlazado.
+Pregunta 8: Falso, uno es un char y solo puede almacenar un carácter, el otro es una cadena de caracteres y se puede almacenar cualquier cantidad.
+Pregunta 9: Falso, una variable no puede contener ñ o tildes, empezar por numeros, sor un token(true).
+Pregunta 10: Verdadero, las variables siempre se tienen que declarar antes porque el programa lee linea por linea y no entenderá qué variable.
+Pregunta 11: Falso, primero se tendría que dividir b entre c y después multiplicarlo por d
+Pregunta 12: Verdadero, necesitamos el iostream para indicar qué elementos se van a utilizar.
+Pregunta 13: Falso, primero se necesita declarar la variable de tipo entero para cuando se ejecute el cin enlacemos el número que metamos a dicha variable.
+Pregunta 14: Falso, el programa seguirá esperando hasta que le metamos algún valor.
+Pregunta 15: Falso, es tan difícil como hacer un huevo frito.
+

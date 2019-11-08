@@ -1,0 +1,49 @@
+<?xml version ="1.0"?>
+
+<parking>
+
+	<vehiculo>
+
+		<tipovehiculo> coche </tipovehiculo>
+		<tipovehiculo> moto </tipovehiculo>	
+
+		<marca> Dacia </marca>
+		<marca> Opel </marca>
+			
+		<matricula> 123456GR </matricula>
+		<matricula> 123457GR </matricula>
+
+	</vehiculo>
+	
+	<plazaparcamiento>
+
+		<planta> 1
+			<zonaIZQUIERDA>
+			</zonaIZQUIERDA>
+
+			<zonaDERECHA>
+			cocheDacia
+			</zonaDERECHA>
+
+			<zonaCENTRAL>
+			</zonaCENTRAL>
+		</planta>
+
+		<planta> 2
+			<zonaIZQUIERDA>
+			</zonaIZQUIERDA>
+
+			<zonaDERECHA>
+			motoOpel
+			</zonaDERECHA>
+
+			<zonaCENTRAL>
+			</zonaCENTRAL>
+		</planta>
+		
+		
+		
+	</plazaparcamiento>
+
+
+</parking>

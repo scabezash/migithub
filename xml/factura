@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<factura>
+
+
+	<numerofactura n="999">
+
+		<datosenvio>
+			<fecha>12-10-2005</fecha>
+			<numeropedido>731</numeropedido>
+			<formapago>efectivo</formapago>
+		</datosenvio>
+
+		<datosvendedor>
+			<empresa>Equipos Digitales S.L.</empresa>
+			<calle>Avenida Valladolid</calle>
+			<provincia>Madrid</provincia>
+			<codigopostal>28015</codigopostal>
+			<cif>Q-9876543</cif>
+			<telefono>917776688</telefono>
+			<fax>917776699</fax>
+		</datosvendedor>
+
+		<datoscliente>
+			<numerocliente>879</numerocliente>
+			<nombre>Darío Bueno Gutiérrez</nombre>
+			<direccionenvio> Avenida Oporto nº7 4ºd</direccionenvio>
+			<poblacion>Madrid</poblacion>
+			<codigopostal>28043</codigopostal>
+			<provincia>Madrid</provincia>
+		</datoscliente>
+
+		<datosfactura>
+			
+			<referencia nr="">
+				<descripcion></descripcion>
+				<cantidad></cantidad>
+				<precio></precio>
+				<iva></iva>
+				<importe></importe>
+			</referencia>
+			
+			<baseimponible></baseimponible>
+			<iva></iva>
+			<cuotaiva></cuotaiva>
+			<totalfactura></totalfactura>
+			
+
+		</datosfactura>
+
+	</numerofactura>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</factura>

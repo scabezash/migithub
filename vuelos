@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE vuelos
+[
+<!ELEMENT vuelos (datosvuelo)+>
+<!ELEMENT datosvuelo (nombreaeropuerto,diario,origen,destino,horallegada,horasalida,fecha)>
+	<!ATTLIST datosvuelo codigo CDATA #REQUIRED>
+<!ELEMENT nombreaeropuerto (#PCDATA)>
+<!ELEMENT  (, )>
+<!ELEMENT  (#PCDATA)>
+<!ELEMENT  (#PCDATA)>
+<!ELEMENT  (#PCDATA)>
+
+]>
+
+
+
+<vuelos>
+	
+	<datosvuelo codigo="V22" estado="R">
+		<nombreaeropuerto></nombreaeropuerto> 
+		<diario></diario>
+		<origen></origen>
+		<destino></destino>
+		<horallegada></horallegada>
+		<horasalida></horasalida>
+		<fecha></fecha>
+	</datosvuelo>
+	
+	<datosvuelo codigo="V23" estado="C">
+		<nombreaeropuerto></nombreaeropuerto> 
+		<diario></diario>
+		<origen></origen>
+		<destino></destino>
+		<horallegada></horallegada>
+		<horasalida></horasalida>
+		<fecha></fecha>
+	</datosvuelo>
+
+</vuelos>
